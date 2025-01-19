@@ -17,7 +17,7 @@ Write a function that turns a linked list into a string representation (Serializ
 that turns that string representation to an actual linked list (Deserialize).
 */
 
-func TestSerializeAndDeserialize(t *testing.T) {
+func TestSerializeAndDeserializeLinkedList(t *testing.T) {
 	tests := []string{
 		"",
 		"1",
